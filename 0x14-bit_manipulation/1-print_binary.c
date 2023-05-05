@@ -5,6 +5,9 @@
  * @n: is basically the  number to print in binary
  */
 
+ * @n: is basically the  number to print in binary
+ */
+
 void print_binary(unsigned long int n)
 {
 	int i, count = 0;
@@ -25,5 +28,4 @@ void print_binary(unsigned long int n)
 	if (!count)
 		_putchar('0');
 }
-
  
