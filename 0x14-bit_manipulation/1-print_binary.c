@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_binary - it prints the binary parallelof a decimal number
+  * print_binary - it prints the binary parallel of a decimal number
   * @n: is basically the  number to print in binary
  */
 
