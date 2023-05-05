@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-  * print_binary - it prints the binary parallel of a decimal number
-  * @n: is basically the  number to print in binary
+ * print_binary - it prints the binary equivalent of a decimal number
+ * @n: is basically the  number to print in binary
  */
 
 void print_binary(unsigned long int n)
@@ -25,4 +25,3 @@ void print_binary(unsigned long int n)
 	if (!count)
 		_putchar('0');
 }
- 
