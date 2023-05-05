@@ -2,10 +2,7 @@
 
 /**
  * print_binary - it prints the binary parallelof a decimal number
- * @n: is basically the  number to print in binary
- */
-
- * @n: is basically the  number to print in binary
+  * @n: is basically the  number to print in binary
  */
 
 void print_binary(unsigned long int n)
