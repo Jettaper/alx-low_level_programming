@@ -28,7 +28,7 @@ char *create_buffer(char *file)
 }
 
 /**
- * close_file - this file closes all the files 
+ * close_file - this file closes all the files .
  * @fd: The file descriptor to be closed.
  */
 void close_file(int fd)
@@ -101,7 +101,4 @@ int main(int argc, char *argv[])
 
 	return (0);
 }
-
-
-
 
