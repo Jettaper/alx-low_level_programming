@@ -6,7 +6,7 @@ char *create_buffer(char *file);
 void close_file(int fd);
 
 /**
- * create_buffer - it allocates 1024 bytes for the buffer 
+ * create_buffer - it allocates 1024 bytes for the buffer .
  * @file: The name of the file buffer is storing chars for.
  *
  * Return: A pointer to the newly-allocated buffer.
