@@ -18,7 +18,7 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident);
 void close_elf(int elf);
 
 /**
- * check_elf - this check allfiles to know which one is an ELF file
+ * check_elf - this check allfiles to know which one is an ELF file.
  * @e_ident: A pointer to an array containing the ELF magic numbers.
  *
  * Description: If the file is not an ELF file - exit code 98.
@@ -88,7 +88,7 @@ void print_class(unsigned char *e_ident)
 }
 
 /**
- * print_data - this will print the data of an ELF reader
+ * print_data - this will print the data of an ELF reader.
  * @e_ident: A pointer to an array containing the ELF class.
  */
 void print_data(unsigned char *e_ident)
@@ -260,7 +260,7 @@ void close_elf(int elf)
 }
 
 /**
- * main - Displays the information contained in the
+ * main - Displays the information contained in the.
  * ELF header at the start of an ELF file.
  * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointers to the arguments.
